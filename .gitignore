@@ -1,0 +1,4 @@
+# system cache
+.DS_Store
+/.build
+xcuserdata/
