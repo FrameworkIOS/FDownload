@@ -11,6 +11,7 @@
 		182787432747E74500E056E9 /* FDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182787422747E74500E056E9 /* FDownloadTests.m */; };
 		182787442747E74500E056E9 /* FDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 182787382747E74500E056E9 /* FDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		182787512747E87300E056E9 /* FDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 182787502747E87300E056E9 /* FDownloadTask.h */; };
+		182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = 182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		1827874F2747E81A00E056E9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		182787502747E87300E056E9 /* FDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTask.h; sourceTree = "<group>"; };
 		182787522747E97200E056E9 /* FDownloadTaskCorrect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTaskCorrect.h; sourceTree = "<group>"; };
+		182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTaskCorrect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				182787502747E87300E056E9 /* FDownloadTask.h */,
 				182787522747E97200E056E9 /* FDownloadTaskCorrect.h */,
+				182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
