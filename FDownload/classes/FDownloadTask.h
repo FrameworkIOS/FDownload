@@ -20,3 +20,11 @@ typedef NS_ENUM(NSUInteger, FDownloadTaskState)
     FDownloadTaskStateCanceled,
     FDownloadTaskStateFailured,
 };
+
+@protocol FDownloadTaskDelegate <NSObject>
+
+@optional
+- (void)taskStateDidChange:(FDownloadTask *)task;
+- (void)taskProgressDidChange: (FDownloadTask *)task;
+
+@end
