@@ -5,8 +5,10 @@
 //  Created by Apple on 19/11/21.
 //
 
+/* require file for all */
 #import "FDownloadTaskCorrect.h"
 
+/* target ios supports */
 #if TARGET_OS_IOS
 #import <UIKit/UIKit.h>
 #endif
