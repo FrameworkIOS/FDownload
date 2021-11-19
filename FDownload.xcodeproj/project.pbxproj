@@ -10,6 +10,7 @@
 		1827873E2747E74500E056E9 /* FDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182787352747E74500E056E9 /* FDownload.framework */; };
 		182787432747E74500E056E9 /* FDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182787422747E74500E056E9 /* FDownloadTests.m */; };
 		182787442747E74500E056E9 /* FDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 182787382747E74500E056E9 /* FDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182787512747E87300E056E9 /* FDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 182787502747E87300E056E9 /* FDownloadTask.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		182787422747E74500E056E9 /* FDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTests.m; sourceTree = "<group>"; };
 		1827874E2747E7E000E056E9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1827874F2747E81A00E056E9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		182787502747E87300E056E9 /* FDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTask.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		1827874D2747E78D00E056E9 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				182787502747E87300E056E9 /* FDownloadTask.h */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -101,6 +104,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182787512747E87300E056E9 /* FDownloadTask.h in Headers */,
 				182787442747E74500E056E9 /* FDownload.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
