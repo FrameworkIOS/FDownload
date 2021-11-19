@@ -31,6 +31,7 @@
 		1827874E2747E7E000E056E9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1827874F2747E81A00E056E9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		182787502747E87300E056E9 /* FDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTask.h; sourceTree = "<group>"; };
+		182787522747E97200E056E9 /* FDownloadTaskCorrect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTaskCorrect.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				182787502747E87300E056E9 /* FDownloadTask.h */,
+				182787522747E97200E056E9 /* FDownloadTaskCorrect.h */,
 			);
 			path = classes;
 			sourceTree = "<group>";
