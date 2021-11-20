@@ -45,6 +45,7 @@
 		189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTaskQueue.m; sourceTree = "<group>"; };
 		189B5E2C27487F9D00261242 /* FDownloadTuple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTuple.h; sourceTree = "<group>"; };
 		189B5E2D2748802B00261242 /* FDownloadTuple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTuple.m; sourceTree = "<group>"; };
+		189B5E2F2748817F00261242 /* FDownloadTupleQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTupleQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 				189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */,
 				189B5E2C27487F9D00261242 /* FDownloadTuple.h */,
 				189B5E2D2748802B00261242 /* FDownloadTuple.m */,
+				189B5E2F2748817F00261242 /* FDownloadTupleQueue.h */,
 			);
 			path = classes;
 			sourceTree = "<group>";
