@@ -15,6 +15,7 @@
 		189B5E2827487A3A00261242 /* FDownloadTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2727487A3A00261242 /* FDownloadTools.m */; };
 		189B5E2B27487D8900261242 /* FDownloadTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */; };
 		189B5E2E2748802B00261242 /* FDownloadTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2D2748802B00261242 /* FDownloadTuple.m */; };
+		189B5E312748823C00261242 /* FDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E302748823C00261242 /* FDownloadTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		189B5E2C27487F9D00261242 /* FDownloadTuple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTuple.h; sourceTree = "<group>"; };
 		189B5E2D2748802B00261242 /* FDownloadTuple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTuple.m; sourceTree = "<group>"; };
 		189B5E2F2748817F00261242 /* FDownloadTupleQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTupleQueue.h; sourceTree = "<group>"; };
+		189B5E302748823C00261242 /* FDownloadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				189B5E2C27487F9D00261242 /* FDownloadTuple.h */,
 				189B5E2D2748802B00261242 /* FDownloadTuple.m */,
 				189B5E2F2748817F00261242 /* FDownloadTupleQueue.h */,
+				189B5E302748823C00261242 /* FDownloadTask.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				189B5E2B27487D8900261242 /* FDownloadTaskQueue.m in Sources */,
 				189B5E2827487A3A00261242 /* FDownloadTools.m in Sources */,
 				182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */,
+				189B5E312748823C00261242 /* FDownloadTask.m in Sources */,
 				189B5E2E2748802B00261242 /* FDownloadTuple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
