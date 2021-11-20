@@ -17,6 +17,7 @@
 		189B5E2E2748802B00261242 /* FDownloadTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2D2748802B00261242 /* FDownloadTuple.m */; };
 		189B5E312748823C00261242 /* FDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E302748823C00261242 /* FDownloadTask.m */; };
 		189B5E33274883BF00261242 /* FDownloadImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E32274883BF00261242 /* FDownloadImp.m */; };
+		189B5E352748847400261242 /* FDownloadTupleQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E342748847400261242 /* FDownloadTupleQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		189B5E2F2748817F00261242 /* FDownloadTupleQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTupleQueue.h; sourceTree = "<group>"; };
 		189B5E302748823C00261242 /* FDownloadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTask.m; sourceTree = "<group>"; };
 		189B5E32274883BF00261242 /* FDownloadImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadImp.m; sourceTree = "<group>"; };
+		189B5E342748847400261242 /* FDownloadTupleQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTupleQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				189B5E2F2748817F00261242 /* FDownloadTupleQueue.h */,
 				189B5E302748823C00261242 /* FDownloadTask.m */,
 				189B5E32274883BF00261242 /* FDownloadImp.m */,
+				189B5E342748847400261242 /* FDownloadTupleQueue.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */,
 				189B5E312748823C00261242 /* FDownloadTask.m in Sources */,
 				189B5E2E2748802B00261242 /* FDownloadTuple.m in Sources */,
+				189B5E352748847400261242 /* FDownloadTupleQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
