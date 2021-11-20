@@ -14,6 +14,7 @@
 		182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = 182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */; };
 		189B5E2827487A3A00261242 /* FDownloadTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2727487A3A00261242 /* FDownloadTools.m */; };
 		189B5E2B27487D8900261242 /* FDownloadTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */; };
+		189B5E2E2748802B00261242 /* FDownloadTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2D2748802B00261242 /* FDownloadTuple.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		189B5E2927487C3600261242 /* FDownloadTaskQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTaskQueue.h; sourceTree = "<group>"; };
 		189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTaskQueue.m; sourceTree = "<group>"; };
 		189B5E2C27487F9D00261242 /* FDownloadTuple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTuple.h; sourceTree = "<group>"; };
+		189B5E2D2748802B00261242 /* FDownloadTuple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTuple.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				189B5E2927487C3600261242 /* FDownloadTaskQueue.h */,
 				189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */,
 				189B5E2C27487F9D00261242 /* FDownloadTuple.h */,
+				189B5E2D2748802B00261242 /* FDownloadTuple.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				189B5E2B27487D8900261242 /* FDownloadTaskQueue.m in Sources */,
 				189B5E2827487A3A00261242 /* FDownloadTools.m in Sources */,
 				182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */,
+				189B5E2E2748802B00261242 /* FDownloadTuple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
