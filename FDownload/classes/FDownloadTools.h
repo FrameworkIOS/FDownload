@@ -10,5 +10,12 @@
 @interface FDownloadTools : NSObject
 
 + (NSString *)archiverDirectoryPath;
++ (NSString *)archiverFilePathWithIdentifier:(NSString *)identifier;
 
-@end 
++ (NSURL *)replacehHomeDirectoryForFileURL:(NSURL *)fileURL;
++ (NSString *)replacehHomeDirectoryForFilePath:(NSString *)filePath;
+
++ (NSInteger)sizeWithFileURL:(NSURL *)fileURL;
++ (NSError *)removeFileWithFileURL:(NSURL *)fileURL;
+
+@end
