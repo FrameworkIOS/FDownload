@@ -23,5 +23,18 @@ static NSString * HomeDirectoryRegexPattern = @"(\\w*-){4}(\\w*)";
     return archiverDirectoryPath;
 }
 
++ (NSString *)archiverFilePathWithIdentifier:(NSString *)identifier
+{
+    return [[self archiverDirectoryPath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.archive", identifier]];
+}
+
++ (NSString *)replacehHomeDirectoryForFilePath:(NSString *)filePath
+{
+    if (!fileURL) return nil;
+    
+    NSString * path = [self replacehHomeDirectoryForFilePath:fileURL.path]
+    return [NSURL fileURLwithpath:path];
+}
+
 @end
 
