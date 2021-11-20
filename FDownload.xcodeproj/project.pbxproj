@@ -96,23 +96,6 @@
 		182787372747E74500E056E9 /* FDownload */ = {
 			isa = PBXGroup;
 			children = (
-				1827874D2747E78D00E056E9 /* classes */,
-				182787382747E74500E056E9 /* FDownload.h */,
-			);
-			path = FDownload;
-			sourceTree = "<group>";
-		};
-		182787412747E74500E056E9 /* FDownloadTests */ = {
-			isa = PBXGroup;
-			children = (
-				182787422747E74500E056E9 /* FDownloadTests.m */,
-			);
-			path = FDownloadTests;
-			sourceTree = "<group>";
-		};
-		1827874D2747E78D00E056E9 /* classes */ = {
-			isa = PBXGroup;
-			children = (
 				182787502747E87300E056E9 /* FDownloadTask.h */,
 				182787522747E97200E056E9 /* FDownloadTaskCorrect.h */,
 				182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */,
@@ -128,8 +111,17 @@
 				189B5E302748823C00261242 /* FDownloadTask.m */,
 				189B5E32274883BF00261242 /* FDownloadImp.m */,
 				189B5E342748847400261242 /* FDownloadTupleQueue.m */,
+				182787382747E74500E056E9 /* FDownload.h */,
 			);
-			path = classes;
+			path = FDownload;
+			sourceTree = "<group>";
+		};
+		182787412747E74500E056E9 /* FDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				182787422747E74500E056E9 /* FDownloadTests.m */,
+			);
+			path = FDownloadTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

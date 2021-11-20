@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18AB0E8227492EB0008CF877 /* FDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0E7827492D0E008CF877 /* FDownload.framework */; };
-		18AB0E8327492EB0008CF877 /* FDownload.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0E7827492D0E008CF877 /* FDownload.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18AB0E8727492FC1008CF877 /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB0E8627492FC1008CF877 /* DownloadCell.m */; };
+		18AB0E8B27493073008CF877 /* FDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0E7827492D0E008CF877 /* FDownload.framework */; };
+		18AB0E8C27493073008CF877 /* FDownload.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18AB0E7827492D0E008CF877 /* FDownload.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18AB745927492B510095015B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB745827492B510095015B /* AppDelegate.m */; };
 		18AB745C27492B510095015B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB745B27492B510095015B /* SceneDelegate.m */; };
 		18AB745F27492B510095015B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB745E27492B510095015B /* ViewController.m */; };
@@ -37,13 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		18AB0E8427492EB0008CF877 /* Embed Frameworks */ = {
+		18AB0E8D27493073008CF877 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18AB0E8327492EB0008CF877 /* FDownload.framework in Embed Frameworks */,
+				18AB0E8C27493073008CF877 /* FDownload.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AB0E8227492EB0008CF877 /* FDownload.framework in Frameworks */,
+				18AB0E8B27493073008CF877 /* FDownload.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +144,7 @@
 				18AB745027492B510095015B /* Sources */,
 				18AB745127492B510095015B /* Frameworks */,
 				18AB745227492B510095015B /* Resources */,
-				18AB0E8427492EB0008CF877 /* Embed Frameworks */,
+				18AB0E8D27493073008CF877 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
