@@ -35,6 +35,7 @@
 		182787522747E97200E056E9 /* FDownloadTaskCorrect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTaskCorrect.h; sourceTree = "<group>"; };
 		182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTaskCorrect.m; sourceTree = "<group>"; };
 		189B5E242748762F00261242 /* FDownloadTaskPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTaskPrivate.h; sourceTree = "<group>"; };
+		189B5E252748778300261242 /* FDownloadImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadImp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				182787522747E97200E056E9 /* FDownloadTaskCorrect.h */,
 				182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */,
 				189B5E242748762F00261242 /* FDownloadTaskPrivate.h */,
+				189B5E252748778300261242 /* FDownloadImp.h */,
 			);
 			path = classes;
 			sourceTree = "<group>";
