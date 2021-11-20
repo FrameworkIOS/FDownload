@@ -13,6 +13,7 @@
 		182787512747E87300E056E9 /* FDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 182787502747E87300E056E9 /* FDownloadTask.h */; };
 		182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = 182787532747E9A300E056E9 /* FDownloadTaskCorrect.m */; };
 		189B5E2827487A3A00261242 /* FDownloadTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2727487A3A00261242 /* FDownloadTools.m */; };
+		189B5E2B27487D8900261242 /* FDownloadTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		189B5E26274879B400261242 /* FDownloadTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTools.h; sourceTree = "<group>"; };
 		189B5E2727487A3A00261242 /* FDownloadTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTools.m; sourceTree = "<group>"; };
 		189B5E2927487C3600261242 /* FDownloadTaskQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDownloadTaskQueue.h; sourceTree = "<group>"; };
+		189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDownloadTaskQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				189B5E26274879B400261242 /* FDownloadTools.h */,
 				189B5E2727487A3A00261242 /* FDownloadTools.m */,
 				189B5E2927487C3600261242 /* FDownloadTaskQueue.h */,
+				189B5E2A27487D8900261242 /* FDownloadTaskQueue.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189B5E2B27487D8900261242 /* FDownloadTaskQueue.m in Sources */,
 				189B5E2827487A3A00261242 /* FDownloadTools.m in Sources */,
 				182787542747E9A300E056E9 /* FDownloadTaskCorrect.m in Sources */,
 			);
