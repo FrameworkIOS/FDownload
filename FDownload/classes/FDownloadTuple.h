@@ -11,6 +11,8 @@
 
 @interface FDownloadTuple : NSObject
 
++ (instancetype)tupleWithDownloadTask:(FDownloadTask *)downloadTask sessionTask:(NSURLSessionDownloadTask *)sessionTask;
+
 @property (nonatomic, strong) FDownloadTask * downloadTask;
 @property (nonatomic, strong) NSURLSessionDownloadTask * sessionTask;
 
