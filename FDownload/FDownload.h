@@ -6,9 +6,5 @@
 //
 
 #import <Foundation/Foundation.h>
-
-FOUNDATION_EXPORT double FDownloadVersionNumber;
-
-FOUNDATION_EXPORT const unsigned char FDownloadVersionString[];
-
-
+#import "FDownloadImp.h"
+#import "FDownloadTask.h"
